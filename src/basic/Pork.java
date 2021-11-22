@@ -3,6 +3,7 @@ package basic;
 public class Pork {
 
 	public static void main(String[] args) {
+		// 메소드 예제
 		// 음식 칼로리 계산
 		
 		// 1. 변수를 생성하시오.
@@ -22,4 +23,4 @@ public class Pork {
 		return kcal;
 	} // end of calculate
 	
-}
+} // end of Pork
