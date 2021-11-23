@@ -40,5 +40,6 @@ public class LeapYear {
 	
 		// 결과값 반환
 		return result;
-	}		
-}
+		
+	} // end of isLeapYear		
+} // end of LeapYear
