@@ -17,9 +17,6 @@ public class ForStatement {
 		for (int i = 1; i <= max; i++) {
 			System.out.printf("%s", i);
 		}
-		
 		System.out.println("\n끝 !!");
-		
 	} // end of printNumbers
-	
 } // end of ForStatement
