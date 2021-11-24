@@ -9,7 +9,7 @@ public class GuGuDan {
 
 	//구구단 출력 메소드!
 	public static void PrintGuGuDan() {
-		for (int i = 2; i <= 9; i++) {
+		for (int i = 2; i <= 9; i++) { // i = 2 ~ 9
 			printDan(i); // i단 출력
 		}
 	} // end of PrintGuGuDan
@@ -25,4 +25,4 @@ public class GuGuDan {
 			System.out.printf("%d x %d = %d\n", dan, k, dan * k);
 		}
 	} // end of printDan
-}
+} // end of GuGuDan
