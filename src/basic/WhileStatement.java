@@ -17,8 +17,6 @@ public class WhileStatement {
 			System.out.printf("%d..\n", num);	// 5.. //4.. //3.. ~ // 0..
 			num--;
 		}
-		
 		System.out.println("발사 !!");
-	}
-
+	} // end of countDown
 } // end of WhileStatement
