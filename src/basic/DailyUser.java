@@ -15,19 +15,20 @@ public class DailyUser {
 		System.out.printf("하루 평균 사용자: %.2f명", result);
 	} // end of main
 
+	// 배열의 평균을 반환 하는 메소드
 	private static double average (int[] arr) {
-		//총합
+		// 1.총합
 		double sum = 0;
 		for (int i = 0; i < arr.length; i++) {
 			sum += arr[i];
 		}
 		
-		// 평균
+		// 2.평균
 		// int / int => int
 		// double / double => double
 		double avg = sum / arr.length; // 총합 / 개수 => 평균
 		
-		// 결과값 반환
+		// 3.결과값 반환
 		return avg;
 	} // end of average
-}
+} // end of DailyUser
