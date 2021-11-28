@@ -1,4 +1,4 @@
-package oop;
+ package oop;
 
 public class CatTest {
 
@@ -18,7 +18,7 @@ public class CatTest {
 		c1.meow();
 		c2.meow();
 	} // end of main
-}
+} // end of CatTest
 
 class Cat {
 	
