@@ -17,11 +17,10 @@ public class BicycleTest {
 		b2.price = 296000;
 		
 		// 객체 정보 출력
-		System.out.printf("b1->{%s, %.2f, %d}\n", b1.name, b1.weight, b1.price); // b1->{로드형 자전거, 7.25, 326000}
-		System.out.printf("b2->{%s, %.2f, %d}\n", b2.name, b2.weight, b2.price); // b2->{산악형 자전거, 8.32, 296000}
+		System.out.printf("b1->{%s, %.2fkg, %d원}\n", b1.name, b1.weight, b1.price); // b1->{로드형 자전거, 7.25, 326000}
+		System.out.printf("b2->{%s, %.2fkg, %d원}\n", b2.name, b2.weight, b2.price); // b2->{산악형 자전거, 8.32, 296000}
 	} // end of main
-
-}
+} // end of BicycleTest
 
 class Bicycle {
 	// 필드
@@ -36,4 +35,4 @@ class Bicycle {
 	void horn() {
 		System.out.println("따르르릉! 지나갈게요~");
 	}
-}
+} // end of Bicycle
