@@ -19,7 +19,7 @@ public class DrinkMachineTest {
 	
 	} // end of main
 
-}
+} // end of DrinkMachineTest
 
 class DrinkMachine {
 	// 필드
