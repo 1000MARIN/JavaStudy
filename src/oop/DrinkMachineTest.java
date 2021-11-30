@@ -18,7 +18,6 @@ public class DrinkMachineTest {
 		// 맥주
 	
 	} // end of main
-
 } // end of DrinkMachineTest
 
 class DrinkMachine {
