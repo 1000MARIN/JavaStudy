@@ -40,4 +40,17 @@ class Point {									// 생성자 정의
 		double dY = p.y - q.y;					// y좌표의 변화량
 		return Math.sqrt((dX * dX) + (dY * dY));// Math.sqrt는 루트 메소드
 	}
+	
+	// static 키워드	: 필드 & 메소드에 적용 가능한 공유의 키워드
+	// 클래스 변수 		: 객체 외부 클래스 영역에서 공유되는 변수
+	// 인스턴스 변수	: 객체 내부 변수
+	// 클래스 메소드 	: 클래스가 동작시키는 메소드
+	// 인스턴스 메소드 	: 주체 객체가 동작하는 메소드
+	
+	// 접근 제한자의 범위
+	// private : 비공개
+	// default : 같은 패키지 내 공개
+	// protected : 상속 범위 공개
+	// public : 완전공개
+	
 } // end of Point
