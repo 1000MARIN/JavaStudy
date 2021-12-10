@@ -23,6 +23,12 @@ public class Main {
 	} // end of main
 } // end of Main
 
+//접근 제한자의 범위
+// private : 비공개
+// default : 같은 패키지 내 공개
+// protected : 상속 범위 공개
+// public : 완전공개
+
 class Knight{
 	// 필드 추가
 	private String name;
