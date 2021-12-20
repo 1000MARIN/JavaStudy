@@ -14,6 +14,8 @@ public class ElvesTest {
 		
 		// 객체 배열 생성
 		//Elf[] elves = { a, b, c };
+		
+		// ArrayList로 묶기
 		ArrayList<Elf> list = new ArrayList<Elf>();	// Elf를 담기위한 ArrayList 생성
 		list.add(a);
 		list.add(b);
@@ -33,7 +35,7 @@ public class ElvesTest {
 class Elf {
 	protected String name;	// protected : 상속 관계 접근 허용
 	protected int hp;		// protected : 상속 관계 접근 허용
-	
+	 
 	public Elf(String name, int hp) {
 		this.name = name;
 		this.hp = hp;
